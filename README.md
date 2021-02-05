@@ -2,8 +2,7 @@
 
 A Tic-Tac-Toe game made with JavaScript factory functions and modules. Play a game with a friend (or yourself). Whoever gets 3 in a row wins! [View this webapp live.](https://louvang.github.io/tictactoe/)
 
-<p align="center"><a href="https://louvang.github.io/tictactoe/" target="_blank"><img src="https://louvang.github.io/tictactoe/img/preview.png" alt="Tic-Tac-Toe Preview" width="750px" />
-Click to view the live version.</a></p>
+<p align="center"><a href="https://louvang.github.io/tictactoe/" target="_blank"><img src="https://louvang.github.io/tictactoe/img/preview.png" alt="Tic-Tac-Toe Preview" width="750px" /></a></p>
 
 ## How To
 

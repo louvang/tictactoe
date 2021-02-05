@@ -1,8 +1,9 @@
 # [Tic-Tac-Toe](https://louvang.github.io/tictactoe/)
 
-A Tic-Tac-Toe game made with JavaScript factory functions and modules. Play a game with a friend (or yourself). Whoever gets 3 in a row wins!
+A Tic-Tac-Toe game made with JavaScript factory functions and modules. Play a game with a friend (or yourself). Whoever gets 3 in a row wins! [View this webapp live.](https://louvang.github.io/tictactoe/)
 
-<p align="center"><a href="https://louvang.github.io/tictactoe/" target="_blank"><img src="https://louvang.github.io/tictactoe/img/preview.png" alt="Tic-Tac-Toe Preview" width="750px" /></a></p>
+<p align="center"><a href="https://louvang.github.io/tictactoe/" target="_blank"><img src="https://louvang.github.io/tictactoe/img/preview.png" alt="Tic-Tac-Toe Preview" width="750px" />
+Click to view the live version.</a></p>
 
 ## How To
 
@@ -26,8 +27,8 @@ Regardless, I do at least have a better understanding of modules as opposed to b
 
 I most likely won't be improving this project but just in case, here are a few things to consider:
 
-[ ] Better design
-[ ] Implement 1-player mode
-[ ] Use minimax to create an unbeatable AI
-[ ] Allow players to choose icons as their marks (rather than X's and O's)
-[ ] Have players input their names
+- [ ] Better design
+- [ ] Implement 1-player mode
+- [ ] Use minimax to create an unbeatable AI
+- [ ] Allow players to choose icons as their marks (rather than X's and O's)
+- [ ] Have players input their names

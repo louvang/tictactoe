@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  background-color: #fff;
+  display: grid;
+  height: 100vh;
+  place-content: center;
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.row {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 360px;
+
+  .cell {
+    width: 110px;
+    height: 110px;
+    border: 5px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+
+  .unmarked {
+    cursor: pointer;
+  }
+
+  .unmarked:hover {
+    background-color: #ccc;
+    transition: 0.25s ease-in;
+  }
+
+  .marked {
+    cursor: default;
+  }
+
+  #cell0 {
+    width: 115px;
+    height: 115px;
+    border-top: 0;
+    border-left: 0;
+  }
+
+  #cell1 {
+    height: 115px;
+    border-top: 0;
+  }
+
+  #cell2 {
+    width: 115px;
+    height: 115px;
+    border-top: 0;
+    border-right: 0;
+  }
+
+  #cell3 {
+    width: 115px;
+    border-left: 0;
+  }
+
+  #cell5 {
+    width: 115px;
+    border-right: 0;
+  }
+
+  #cell6 {
+    width: 115px;
+    height: 115px;
+    border-bottom: 0;
+    border-left: 0;
+  }
+
+  #cell7 {
+    height: 115px;
+    border-bottom: 0;
+  }
+
+  #cell8 {
+    width: 115px;
+    height: 115px;
+    border-bottom: 0;
+    border-right: 0;
+  }
+}
+
+#status {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#clear {
+  display: block;
+  margin: 1rem auto 0;
+}
